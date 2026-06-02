@@ -160,9 +160,63 @@ Hallazgos Detectados
 |-------|------|-----------|
 QA-001 | Es posible completar una compra con carrito vacío | Media
 QA-002 | El campo Credit Card acepta texto arbitrario| Media
-QA-003 | Los productos repetidos no se consolidan en una sola línea | Baja
+QA-003 | Los productos repetidos no se consolidan en una sola línea | Baja  
 
 
+
+# Conclusiones y Hallazgos - Prueba API
+
+## Información General
+
+**APIs evaluadas:**
+
+- https://api.demoblaze.com/signup
+- https://api.demoblaze.com/login
+
+**Herramienta utilizada:**
+
+- Cypress
+
+**Tipo de pruebas ejecutadas:**
+
+- Pruebas de API REST
+- Pruebas funcionales
+- Pruebas negativas
+- Exploratory Testing
+
+---
+
+## API Signup
+
+### Caso 1: Crear nuevo usuario
+
+**Resultado:** Exitoso
+
+**Validación realizada:**
+
+- Se genera un usuario único utilizando timestamp.
+- Se envía petición POST al endpoint `/signup`.
+- El sistema registra correctamente el usuario.
+
+**Resultado esperado:** Cumplido.
+
+---
+
+### Caso 2: Intentar registrar usuario existente
+
+**Resultado:** Exitoso
+
+**Validación realizada:**
+
+- Se registra un usuario.
+- Se intenta registrar nuevamente el mismo usuario.
+- El sistema devuelve:
+
+```json
+{
+  "errorMessage": "This user already exist."
+}
+```
 
 # Conclusión
 
