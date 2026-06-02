@@ -44,7 +44,7 @@ npm -v
 ## 1. Clonar el repositorio
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/WhiteHack13/Testing-E2E---API.git
 ```
 
 ## 2. Ingresar al proyecto
@@ -151,7 +151,9 @@ demoblaze-cypress-e2e/
 ├── cypress/
 │   ├── e2e/
 │   │   ├── demoblaze-purchase-flow.cy.js
-│   │   └── demoblaze-auth-api.cy.js
+        ├──api/ 
+            └──demoblaze-auth-api.
+    ├──evidencias/ 
 │   │
 │   ├── fixtures/
 │   └── support/

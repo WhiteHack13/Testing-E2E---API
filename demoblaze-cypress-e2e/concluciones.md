@@ -217,6 +217,14 @@ QA-003 | Los productos repetidos no se consolidan en una sola línea | Baja
   "errorMessage": "This user already exist."
 }
 ```
+# Evidencias
+    Carpeta con capturas de pantalla de las pruebas en funcionamiento.
+
+![Evidencia 1](cypress/evidencias/image1.png)  
+![Evidencia 2](cypress/evidencias/image2.png)  
+![Evidencia 3](cypress/evidencias/image3.png)  
+
+[TestComplete.mp4](cypress/evidencias/TestComplete.mp4)
 
 # Conclusión
 
