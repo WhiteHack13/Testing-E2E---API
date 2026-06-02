@@ -1,4 +1,4 @@
-QA Automation E2E - Demoblaze
+# QA Automation E2E - Demoblaze
 
 Información General
 
@@ -10,9 +10,9 @@ Sitio evaluado: https://www.demoblaze.com/
 
 Objetivo: : Automatizar el flujo completo de compra validando el comportamiento funcional de la aplicación y documentar los hallazgos encontrados durante la ejecución de las pruebas.
 
-Escenarios Automatizados
+# Escenarios Automatizados
 
-Caso 1 - Acceso a la página principal
+## Caso 1 - Acceso a la página principal
 
 Objetivo: 
 
@@ -28,7 +28,7 @@ Aprobado.
 
 ---
 
-Caso 2 - Flujo completo de compra
+## Caso 2 - Flujo completo de compra
 
 Objetivo: 
 
@@ -57,7 +57,7 @@ Aprobado.
 
 ---
 
-Caso 3 - Compra con campos obligatorios vacíos
+## Caso 3 - Compra con campos obligatorios vacíos
 
 Objetivo: 
 
@@ -73,7 +73,7 @@ Aprobado.
 
 ---
 
-Caso 4 - Compra con carrito vacío
+## Caso 4 - Compra con carrito vacío
 
 Objetivo: 
 
@@ -95,7 +95,7 @@ Desde una perspectiva funcional y de negocio, normalmente no debería permitirse
 
 ---
 
-Caso 5 - Validación de datos de tarjeta
+## Caso 5 - Validación de datos de tarjeta
 
 Objetivo: 
 
@@ -121,7 +121,7 @@ No existe validación de formato ni validación numérica para el campo de tarje
 
 ---
 
-Caso 6 - Productos duplicados en carrito
+## Caso 6 - Productos duplicados en carrito
 
 Objetivo: 
 
@@ -133,7 +133,7 @@ Al agregar dos veces un mismo producto, el sistema genera múltiples filas indep
 
 Comportamiento Actual
 
-| Producto | Cantidad |
+Producto | Cantidad
 |----------|----------|
 Nokia lumia 1520 | 1
 Nokia lumia 1520 | 1
@@ -164,7 +164,7 @@ QA-003 | Los productos repetidos no se consolidan en una sola línea | Baja
 
 
 
-Conclusión
+# Conclusión
 
 La automatización E2E implementada valida correctamente el flujo principal de compra solicitado en el ejercicio.
 
